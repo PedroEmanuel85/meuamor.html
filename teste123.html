@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Você ❤️</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #ffcccc;
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ff5050;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            background-color: #ff5050;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="message">
+        <h1>Oi, amor! ❤️</h1>
+        <p>Eu só queria dizer o quanto você é especial para mim!</p>
+        <button onclick="revealLove()">Clique aqui para saber mais</button>
+    </div>
+
+    <script>
+        function revealLove() {
+            document.getElementById('message').innerHTML = "<h1>Te amo mais do que tudo! 💖</h1><p>Obrigado por fazer parte da minha vida.</p>";
+        }
+    </script>
+</body>
+</html>
